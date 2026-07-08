@@ -1,0 +1,11 @@
+git init                                                                创建本地代码仓库.git
+git remote add 远程仓库别名（默认origin） 远程仓库链接（默认SSH链接）       绑定本地仓库与远程仓库
+git add *                                                               将代码添加到暂存区
+git commit -m "更新日志"                                                 提交代码
+git push 别名 代码分支                                                   把编写好的本地代码推送到GitHub上
+ssh-keygen -t ed25519 -C 邮箱                                                                                获取密钥
+
+
+常见两种校验方式：
+1. HTTPS + 账号密码（用户名 + PAT令牌）
+2. SSH链接 + 密钥
